@@ -1,0 +1,12 @@
+.top-player{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.player{
+    display: flex;
+}
+.player img{
+    height: 80px;
+    margin-right: 20px;
+}
